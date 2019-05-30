@@ -14,6 +14,9 @@ class School
     end
   end
   
-  
+  def grade(grade)
+    if @roster.keys.include?(grade)
+      @roster[grade]
+  end
   
 end
