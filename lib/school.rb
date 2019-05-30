@@ -3,7 +3,7 @@ class School
   
   def roster
   @roster = {}
-  @roster["grade"] = []
+  @roster[grade] = []
   end
 
   
