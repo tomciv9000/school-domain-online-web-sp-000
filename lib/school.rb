@@ -7,6 +7,7 @@ class School
   end
   
   def add_student(student_name, grade)
+    @roster.keys
     @roster[grade] = []
     @roster[grade] << student_name
   end
