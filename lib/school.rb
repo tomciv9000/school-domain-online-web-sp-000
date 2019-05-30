@@ -1,14 +1,14 @@
 class School
   attr_accessor :name
   
-  ROSTER = {}
+  @roster = {}
   
   def initialize(school_name)
     @name = school_name
   end
   
   def add_student (student_name, grade)
-    ROSTER[grade] << student_name
+    @roster[grade] << student_name
   end
   
 end
