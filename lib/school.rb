@@ -17,6 +17,7 @@ class School
   def grade(grade)
     if @roster.keys.include?(grade)
       @roster[grade]
+    end
   end
   
 end
