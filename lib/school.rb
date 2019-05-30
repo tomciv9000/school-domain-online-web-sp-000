@@ -2,9 +2,8 @@ class School
   attr_accessor :name
   
   def roster
-@roster = {}
+  @roster = {}
   @roster["grade"] = []
-  
   end
 
   
